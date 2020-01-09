@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1rem;
+            grid-row-gap: 1rem; */
+            grid-gap: 1rem;
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1rem;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti pariatur facilis ut laborum quam, ea
+            odit neque non nam repellat eveniet consequatur tempora velit asperiores rerum? Quibusdam necessitatibus
+            alias et quo fugit, nulla doloribus explicabo asperiores optio soluta non! Reiciendis ipsam totam laudantium
+            doloribus inventore iste hic atque necessitatibus id labore libero dicta voluptate cum, iure provident
+            nesciunt enim maxime distinctio velit tempora! A cumque, maxime voluptatem iste vero commodi, consequatur at
+            veritatis, facilis minus quibusdam perspiciatis rem! Ad.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatibus porro quam suscipit dolorem
+            assumenda eius nihil deserunt pariatur, consequatur numquam possimus molestiae dolorum quae neque tenetur
+            officia sapiente eos illo tempora? Cum itaque, reiciendis facilis facere molestias nisi perferendis!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti pariatur facilis ut laborum quam, ea
+            odit neque non nam repellat eveniet consequatur tempora velit asperiores rerum? Quibusdam necessitatibus
+            alias et quo fugit, nulla doloribus explicabo asperiores optio soluta non! Reiciendis ipsam totam laudantium
+            doloribus inventore iste hic atque necessitatibus id labore libero dicta voluptate cum, iure provident
+            nesciunt enim maxime distinctio velit tempora! A cumque, maxime voluptatem iste vero commodi, consequatur at
+            veritatis, facilis minus quibusdam perspiciatis rem! Ad.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatibus porro quam suscipit dolorem
+            assumenda eius nihil deserunt pariatur, consequatur numquam possimus molestiae dolorum quae neque tenetur
+            officia sapiente eos illo tempora? Cum itaque, reiciendis facilis facere molestias nisi perferendis!</div>
+        <div>Hello</div>
+    </div>
+</body>
+
+</html>
